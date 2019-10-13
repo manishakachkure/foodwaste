@@ -1,15 +1,10 @@
-/*
- * GovernmentAdminWorkAreaJPanel.java
- *
- * Created on October 10, 2008, 8:50 AM
- */
+
 
 package userInterface.government.governmentAdmin;
 
 import business.enterprise.Enterprise;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
-
 /**
  *
  * @author  indap.n
@@ -67,7 +62,7 @@ public class GovernmentAdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnManageUser.setText("Manage User");
+        btnManageUser.setText("Managed User");
         btnManageUser.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnManageUserActionPerformed(evt);
